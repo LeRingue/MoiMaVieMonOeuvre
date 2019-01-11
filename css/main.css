@@ -1,0 +1,137 @@
+html, body, header, div, nav, ul, article{
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: lightblue;
+  /* background-color: #C4E8C8; */
+  color: #3A5FCD;
+}
+body{
+
+}
+
+#atf{
+  height: 80vh;
+  top:20vh;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+header{
+  width: 100%;
+  height: 20vh;
+  /* background-color: rgba(200, 200, 200, 0.5); */
+  background-size: cover;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+header>h1{
+  font-size: 2rem;
+  width:50%;
+  text-align: center;
+}
+
+nav{
+  width:100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+label {
+    padding: 10px;
+    border: .3rem solid darkblue;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+}
+
+label:hover {
+    background-color: #6DC990;
+}
+
+article{
+  position: fixed;
+  display: none;
+  border: 2px solid blue;
+  /* formatting */
+  top: 20vh;
+  left: 0rem;
+  height: 70vh;
+  width: 100vw;
+  }
+
+article>p{
+    font-size: 1.5rem;
+    }
+article>a{
+        font-size: 1.5rem;
+}
+
+input[type="radio"] {
+    /* toggle */
+    display: none;
+}
+input[type="radio"]:checked + #Perso {
+    /* toggle */
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+input[type="radio"]:checked + #EXP {
+    /* toggle */
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+input[type="radio"]:checked + #Formation {
+    /* toggle */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+input[type="radio"]:checked + #Skills {
+    /* toggle */
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+input[type="radio"]:checked + #IP {
+    /* toggle */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+input[type="radio"]:checked + #Hobbies {
+    /* toggle */
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.Filler{
+  /* formatting */
+  width: 10%;
+  }
+.year{
+  /* formatting */
+  width: 20%;
+}
+.Desc{
+  /* formatting */
+  width: 70%;
+}
