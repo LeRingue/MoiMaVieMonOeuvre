@@ -1,4 +1,4 @@
-html, body, header, div, nav, ul, article{
+html, body, header, div, nav, ul, section{
   padding: 0;
   border: 0;
   margin: 0;
@@ -56,7 +56,7 @@ label:hover {
     background-color: #6DC990;
 }
 
-article{
+section{
   position: fixed;
   display: none;
   border: 2px solid blue;
@@ -67,10 +67,10 @@ article{
   width: 100vw;
   }
 
-article>p{
+section>p{
     font-size: 1.5rem;
     }
-article>a{
+section>a{
         font-size: 1.5rem;
 }
 
@@ -123,15 +123,34 @@ input[type="radio"]:checked + #Hobbies {
     align-items: center;
 }
 
+h1{
+  font-size: 1.5rem;
+  width: 100%;
+text-align: center;
+}
+
 .Filler{
   /* formatting */
   width: 10%;
   }
-.year{
+.FillerLine{
+  /* formatting */
+  width: 100%;
+  height:2vh;
+  }
+.Formyear{
   /* formatting */
   width: 20%;
 }
-.Desc{
+.FormDesc{
+  /* formatting */
+  width: 70%;
+}
+.IPNumber{
+  /* formatting */
+  width: 20%;
+}
+.IPDesc{
   /* formatting */
   width: 70%;
 }
