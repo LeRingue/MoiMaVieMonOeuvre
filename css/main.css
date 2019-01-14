@@ -61,14 +61,14 @@ nav{
 }
 
 label {
-    padding: 10px;
-    border: .3rem solid darkblue;
-    border-radius: 1rem;
-    font-size: 1.5rem;
+  padding: 10px;
+  border: .3rem solid darkblue;
+  border-radius: 1rem;
+  font-size: 1.5rem;
 }
 
 label:hover {
-    background-color: #6DC990;
+  background-color: #6DC990;
 }
 
 section{
@@ -83,68 +83,69 @@ section{
   }
 
 section>p{
-    font-size: 1.5rem;
-    }
+  font-size: 1.5rem;
+}
 section>a{
-        font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 input[type="radio"] {
-    /* toggle */
-    display: none;
+  /* toggle */
+  display: none;
 }
 input[type="radio"]:checked + #Perso {
-    /* toggle */
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
+  /* toggle */
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
 }
 input[type="radio"]:checked + #Formation {
-    /* toggle */
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
+  /* toggle */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 input[type="radio"]:checked + #EXP {
-    /* toggle */
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
+  /* toggle */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: space-around;
 }
 input[type="radio"]:checked + #Projects {
-    /* toggle */
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
+  /* toggle */
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
 }
 
 input[type="radio"]:checked + #Skills {
-    /* toggle */
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
+  /* toggle */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
 }
 input[type="radio"]:checked + #IP {
-    /* toggle */
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
+  /* toggle */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 input[type="radio"]:checked + #Hobbies {
-    /* toggle */
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
+  /* toggle */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
 h1{
@@ -190,4 +191,18 @@ h1{
 .IPDesc{
   /* formatting */
   width: 70%;
+}
+#EXP>p{
+  font-size: 1rem;
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#EXP>h1{
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-align: left;
 }
